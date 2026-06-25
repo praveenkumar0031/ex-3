@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: payment-service
+spec:
+  replicas: 1 # Lower resource usage for dev
+  template:
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest # Latest build for testing
