@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: payment-service
 spec:
-  replicas: 2 # Production needs more capacity
+  replicas: 3 # Production needs more capacity
