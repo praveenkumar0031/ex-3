@@ -14,5 +14,5 @@ spec:
     targetRevision: HEAD
   syncPolicy:
     automated:
-      selfHeal: false # This prevents the drift we investigated!
+      selfHeal: true # This prevents the drift we investigated!
       prune: true
