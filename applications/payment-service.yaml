@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: overlays/prod
-    repoURL: https://github.com/praveenkumar0031/ex-3.git
+    repoURL: https://github.com/praveenkumar0031/ex.git
     targetRevision: HEAD
   syncPolicy:
     automated:
